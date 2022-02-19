@@ -1,16 +1,22 @@
 {
   "files": {
     "main.css": "/react-redux-app/static/css/main.51fe7d75.css",
-    "main.js": "/react-redux-app/static/js/main.cc6e74b1.js",
+    "main.js": "/react-redux-app/static/js/main.d17c94a1.js",
     "static/js/787.60b19543.chunk.js": "/react-redux-app/static/js/787.60b19543.chunk.js",
+    "static/media/sea.jpg": "/react-redux-app/static/media/sea.819f9cba3773103c2c5b.jpg",
+    "static/media/fookyew2.jpg": "/react-redux-app/static/media/fookyew2.0d46951542d2f80c25b5.jpg",
+    "static/media/china.jpg": "/react-redux-app/static/media/china.0d631c14f7b2d2b9fd28.jpg",
+    "static/media/italiian.jpg": "/react-redux-app/static/media/italiian.4189ac6cf5843a63f7a8.jpg",
+    "static/media/italian.jpg": "/react-redux-app/static/media/italian.f72e0072e7577cc1bdd5.jpg",
+    "static/media/ameri.jpg": "/react-redux-app/static/media/ameri.74faf016122f2a160f58.jpg",
     "index.html": "/react-redux-app/index.html",
     "static/media/arrowSelect.svg": "/react-redux-app/static/media/arrowSelect.52146d27eabdc5a62944.svg",
     "main.51fe7d75.css.map": "/react-redux-app/static/css/main.51fe7d75.css.map",
-    "main.cc6e74b1.js.map": "/react-redux-app/static/js/main.cc6e74b1.js.map",
+    "main.d17c94a1.js.map": "/react-redux-app/static/js/main.d17c94a1.js.map",
     "787.60b19543.chunk.js.map": "/react-redux-app/static/js/787.60b19543.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51fe7d75.css",
-    "static/js/main.cc6e74b1.js"
+    "static/js/main.d17c94a1.js"
   ]
 }
