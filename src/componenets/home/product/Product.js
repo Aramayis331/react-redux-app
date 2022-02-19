@@ -4,7 +4,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import styles from './product.module.scss';
 import { useDispatch } from "react-redux";
 import { editProductCountPlus, editProductCountMinus } from "../../../store/features/filterProducts/filterProductsSlice";
-
+import aa from '../../../../public/images/'
 
 
 const Product = ({ product }) => {

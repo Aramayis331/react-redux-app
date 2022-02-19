@@ -17,7 +17,7 @@ export const initialProducts = {
 			titel: 'Lounge Resort American',
 			type: 'American',
 			price: 2500,
-			img: '/images/ameri.jpg',
+			img: '../../../../public/images/ameri.jpg',
 			count: 1,
 		},
 		{
@@ -25,7 +25,7 @@ export const initialProducts = {
 			titel: 'Door Urban Italian',
 			type: 'Italian',
 			price: 1000,
-			img: '/images/italian.jpg',
+			img: '../../../../public/images/italian.jpg',
 			count: 1,
 		},
 		{
@@ -33,7 +33,7 @@ export const initialProducts = {
 			titel: 'Chow Chinese',
 			type: 'Chinese',
 			price: 2000,
-			img: '/images/china.jpg',
+			img: '../../../../public/images/china.jpg',
 			count: 1,
 		},
 		{
@@ -41,7 +41,7 @@ export const initialProducts = {
 			titel: 'Wharf Seafood American',
 			type: 'American',
 			price: 1800,
-			img: '/images/sea.jpg',
+			img: '../../../../public/images/sea.jpg',
 			count: 1,
 		},
 		{
@@ -49,7 +49,7 @@ export const initialProducts = {
 			titel: 'Tossin Italian',
 			type: 'Italian',
 			price: 2000,
-			img: '/images/italiian.jpg',
+			img: '../../../../public/images/italiian.jpg',
 			count: 1,
 		},
 		{
@@ -57,7 +57,7 @@ export const initialProducts = {
 			titel: 'Stories Noodles Chinese',
 			type: 'Chinese',
 			price: 3500,
-			img: '/images/fookyew2.jpg',
+			img: '../../../../public/images/fookyew2.jpg',
 			count: 1,
 		},
 		{
@@ -65,7 +65,7 @@ export const initialProducts = {
 			titel: 'Lounge Resort American',
 			type: 'American',
 			price: 2500,
-			img: '/images/ameri.jpg',
+			img: '../../../../public/images/ameri.jpg',
 			count: 1,
 		},
 		{
@@ -73,7 +73,7 @@ export const initialProducts = {
 			titel: 'Door Urban Italian',
 			type: 'Italian',
 			price: 1000,
-			img: '/images/italian.jpg',
+			img: '../../../../public/images/italian.jpg',
 			count: 1,
 		},
 		{
@@ -81,7 +81,7 @@ export const initialProducts = {
 			titel: 'Chow Chinese',
 			type: 'Chinese',
 			price: 2000,
-			img: '/images/china.jpg',
+			img: '../../../../public/images/china.jpg',
 			count: 1,
 		},
 		{
@@ -89,7 +89,7 @@ export const initialProducts = {
 			titel: 'Wharf Seafood American',
 			type: 'American',
 			price: 1800,
-			img: '/images/sea.jpg',
+			img: '../../../../public/images/sea.jpg',
 			count: 1,
 		},
 		{
@@ -97,7 +97,7 @@ export const initialProducts = {
 			titel: 'Tossin Italian',
 			type: 'Italian',
 			price: 2000,
-			img: '/images/italiian.jpg',
+			img: '../../../../public/images/italiian.jpg',
 			count: 1,
 		},
 		{
@@ -105,7 +105,7 @@ export const initialProducts = {
 			titel: 'Stories Noodles Chinese',
 			type: 'Chinese',
 			price: 3500,
-			img: '/images/fookyew2.jpg',
+			img: '../../../../public/images/fookyew2.jpg',
 			count: 1,
 		},
 		{
@@ -113,7 +113,7 @@ export const initialProducts = {
 			titel: 'Lounge Resort American',
 			type: 'American',
 			price: 2500,
-			img: '/images/ameri.jpg',
+			img: '../../../../public/images/ameri.jpg',
 			count: 1,
 		},
 		{
@@ -121,7 +121,7 @@ export const initialProducts = {
 			titel: 'Door Urban Italian',
 			type: 'Italian',
 			price: 1000,
-			img: '/images/italian.jpg',
+			img: '../../../../public/images/italian.jpg',
 			count: 1,
 		},
 		{
@@ -129,7 +129,7 @@ export const initialProducts = {
 			titel: 'Chow Chinese',
 			type: 'Chinese',
 			price: 2000,
-			img: '/images/china.jpg',
+			img: '../../../../public/images/china.jpg',
 			count: 1,
 		},
 		{
@@ -137,7 +137,7 @@ export const initialProducts = {
 			titel: 'Wharf Seafood American',
 			type: 'American',
 			price: 1800,
-			img: '/images/sea.jpg',
+			img: '../../../../public/images/sea.jpg',
 			count: 1,
 		},
 		{
@@ -145,7 +145,7 @@ export const initialProducts = {
 			titel: 'Tossin Italian',
 			type: 'Italian',
 			price: 2000,
-			img: '/images/italiian.jpg',
+			img: '../../../../public/images/italiian.jpg',
 			count: 1,
 		},
 		{
@@ -153,7 +153,7 @@ export const initialProducts = {
 			titel: 'Stories Noodles Chinese',
 			type: 'Chinese',
 			price: 3500,
-			img: '/images/fookyew2.jpg',
+			img: '../../../../public/images/fookyew2.jpg',
 			count: 1,
 		},
 		{
@@ -161,7 +161,7 @@ export const initialProducts = {
 			titel: 'Lounge Resort American',
 			type: 'American',
 			price: 2500,
-			img: '/images/ameri.jpg',
+			img: '../../../../public/images/ameri.jpg',
 			count: 1,
 		},
 		{
@@ -169,7 +169,7 @@ export const initialProducts = {
 			titel: 'Door Urban Italian',
 			type: 'Italian',
 			price: 1000,
-			img: '/images/italian.jpg',
+			img: '../../../../public/images/italian.jpg',
 			count: 1,
 		},
 		{
@@ -177,7 +177,7 @@ export const initialProducts = {
 			titel: 'Chow Chinese',
 			type: 'Chinese',
 			price: 2000,
-			img: '/images/china.jpg',
+			img: '../../../../public/images/china.jpg',
 			count: 1,
 		},
 		{
@@ -185,7 +185,7 @@ export const initialProducts = {
 			titel: 'Wharf Seafood American',
 			type: 'American',
 			price: 1800,
-			img: '/images/sea.jpg',
+			img: '../../../../public/images/sea.jpg',
 			count: 1,
 		},
 		{
@@ -193,7 +193,7 @@ export const initialProducts = {
 			titel: 'Tossin Italian',
 			type: 'Italian',
 			price: 2000,
-			img: '/images/italiian.jpg',
+			img: '../../../../public/images/italiian.jpg',
 			count: 1,
 		},
 		{
@@ -201,7 +201,7 @@ export const initialProducts = {
 			titel: 'Stories Noodles Chinese',
 			type: 'Chinese',
 			price: 3500,
-			img: '/images/fookyew2.jpg',
+			img: '../../../../public/images/fookyew2.jpg',
 			count: 1,
 		}
 	],
