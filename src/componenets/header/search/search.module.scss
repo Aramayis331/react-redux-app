@@ -1,0 +1,35 @@
+@mixin responsive($breackpoint) {
+	@if $breackpoint == media__400 {
+		@media only screen and (max-width: 400px) { @content };
+	}
+	@if $breackpoint == phone__680 {
+		@media only screen and (max-width: 680px) { @content };
+	}
+}
+
+.search {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid #008f94;
+	border-radius: 10px;
+	padding: 3px;
+
+	@include responsive(phone__680) {
+		order: 1;
+		width: 40%;
+	}
+	@include responsive(media__400) {
+		width: 45%;
+	}
+	input {
+		border: none;
+		outline: none;
+		background-color: transparent;
+		width: 100%;
+	}
+	.iconSearch {
+		margin-left: 3px;
+		cursor: pointer;
+	}
+}

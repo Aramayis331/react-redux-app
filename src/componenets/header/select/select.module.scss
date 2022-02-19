@@ -1,0 +1,39 @@
+@mixin responsive($breackpoint) {
+	@if $breackpoint == media__400 {
+		@media only screen and (max-width: 400px) { @content };
+	}
+	@if $breackpoint == phone__680 {
+		@media only screen and (max-width: 680px) { @content };
+	}
+}
+
+.select {
+	border: 2px solid #008f94;
+	background-color: transparent;
+	outline: none;
+	border-radius: 10px;
+	font-weight: 600;
+	padding-right: 30px;
+	padding-left: 3px;
+	height: 26px;
+	cursor: pointer;
+
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-image: url(../../../svg/arrowSelect.svg);
+	background-repeat: no-repeat;
+	background-position: right 3px top 50%;
+	background-size: 10px;
+
+	@include responsive(phone__680) {
+		order: 2;
+		width: 20%;
+	}
+	@include responsive(media__400) {
+		width: 35%;
+	}
+	option {
+		background-color: #aadfdeb0;
+	}
+}

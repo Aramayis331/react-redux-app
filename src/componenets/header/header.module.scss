@@ -1,0 +1,16 @@
+@mixin responsive($breackpoint) {
+	@if $breackpoint == phone__680 {
+		@media only screen and (max-width: 680px) { @content };
+	}
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0px;
+
+	@include responsive(phone__680) {
+		flex-wrap: wrap;
+	}
+}

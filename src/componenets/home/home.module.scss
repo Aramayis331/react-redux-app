@@ -1,0 +1,70 @@
+@mixin responsive($breackpoint) {
+	@if $breackpoint == media__550 {
+		@media only screen and (max-width: 550px) { @content };
+	}
+}
+
+.container_home {
+	padding: 10px 0px;
+	position: relative;
+	.home {
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+		flex-wrap: wrap;
+		padding-right: 10px;
+		margin-bottom: 20px;
+	
+		overflow-y: scroll;
+		max-height: 600px;
+		&::-webkit-scrollbar {
+			width: 10px;
+			background-color: transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			background: #008f94;
+			border-radius: 20px;
+		}
+		@include responsive(media__550) {
+			&::-webkit-scrollbar {
+				width: 7px;
+			}
+		}
+	}
+	.div__btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.btn {
+			background-color: transparent;
+			border-radius: 10px;
+			border: 2px solid #008f94;
+			padding: 5px 15px;
+			font-weight: 600;
+			cursor: pointer;
+		}
+	}
+	.scrolToTop {
+		position: absolute;
+		right: 20px;
+		bottom: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 35px;
+		height: 35px;
+		border: 2px solid #008f94;
+		background-color: #008f94;
+		color: #000;
+		font-size: 17px;
+		border-radius: 50%;
+		cursor: pointer;
+		transition: 0.5s;
+		visibility: hidden;
+		opacity: 0;
+	}
+	.scrolToTop.active {
+		visibility: visible;
+		opacity: 1;
+	}
+}
